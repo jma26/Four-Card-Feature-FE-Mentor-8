@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+.fourcard {
+  display: flex;
+  flex-direction: column;
+  margin: 10% auto;
+  max-width: 80%;
+}
+
+.fourcard__title {
+  font-weight: 200;
+  font-size: 1.75em;
+  text-align: center;
+}
+
+.fourcard__subtitle {
+  color: hsl(234, 12%, 34%);
+  font-size: 1.75em;
+  text-align: center;
+}
+
+.fourcard__subtitle--bold {
+  font-weight: 600;
+}
+
+.fourcard__text {
+  color: hsl(229, 6%, 66%);
+  margin: 1em 0 3em;
+  text-align: center;
+}
+
+.fourcard__feature {
+  border-radius: 4px;
+  box-shadow: 0.125rem 0.25rem 1rem rgb(0 0 0 / 25%);
+  margin: 2rem 0;
+  padding: 2rem;
+}
+
+.fourcard__feature--cyan {
+  border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.fourcard__feature--red {
+  border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.fourcard__feature--orange {
+  border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.fourcard__feature--blue {
+  border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+.fourcard__feature-title {
+  color: hsl(234, 12%, 34%);
+}
+
+.fourcard__feature-text {
+  color: hsl(229, 6%, 66%);
+  margin: 0.5em 0;
+}
+
+.fourcard__feature-img {
+  display: block;
+  margin: 2em 0 2em auto;
+}
